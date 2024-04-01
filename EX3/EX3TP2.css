@@ -1,0 +1,142 @@
+
+.barre{
+    margin:-8px;
+    background-color: #003a6a;
+    display: flex;
+    width: 1280px;
+    height: 190px;
+    overflow:hidden;
+}
+.barre::before {
+    content: "";/*We need to include it */
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #fecd0b;
+}
+
+.mon_ecole{
+    position: absolute;
+    top: 20px;
+    text-indent: 20px; /* Spacing in the first of the line*/
+    color:mintcream;
+    line-height:0.4;
+    text-align: left;
+}
+#univ{
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+#abd{
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    font-size: 0.85em;
+}
+#ecole{
+    letter-spacing: 0.3px;
+    font-size: 1.07em;
+    color: #8ab5d6;
+}
+#app{
+    letter-spacing: 1.6px;
+    font-size: 1.06em;
+    color: #8ab5d6;
+}
+
+.logo{
+    width:400px;/* Considering the ratio of the image which is 5:4*/
+    height:150px;
+}
+.logo img{
+    color:white;
+    margin-top: 10px;
+    padding-left: 580px;
+    width: 30%;
+    filter: contrast(0); /*It makes the image grey you can also yse grayscale but it's the opposite*/
+}
+.logo img:hover{
+    filter: contrast(1);
+}
+
+.top {
+    position:absolute;
+    right: 10px;
+    margin-right:20px;
+    padding-top: 20px;
+}
+.top a:link, a:visited{
+    text-decoration: none ;
+    color:#8ab5d6;
+
+}
+.top a:hover, a:active{
+    text-decoration: none ;
+    color:white;
+}
+
+#PA{
+    padding-left: 58px;
+    text-decoration: none ;
+    color:#8ab5d6;
+}
+#PA:hover, #PA:active{
+    padding-left: 58px;
+    text-decoration: none ;
+    color:white;
+}
+#search{
+    border-style: ridge;
+    border-width: 0.5px;
+    border-color:#00569d;
+    margin-top: 20px;
+    height:28px;
+    width: 250px;
+    background-color:#004884 ;
+}
+.navigation ul{
+    position:absolute;
+    left:0px;
+    bottom: 395.5px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #004884;
+}
+
+.navigation li{
+    float:left;
+}
+
+.navigation li a{
+    display: block;
+    border: 1px solid;
+    border-color: #00569d;
+    color: #8ab5d6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navigation li a:hover,a:active{
+    color: white;
+}
+
+#Acceuil{
+    color: #fecd0b;
+}
+#Acceuil:hover , #Acceuil:active{
+    color: white;
+}
+
+
+.fa-facebook{
+    margin-left:485.9px;
+    display: absolute;
+    right:0px;
+}
+.fa:hover , .fa:active{
+    background-color: #fecd0b;
+}
