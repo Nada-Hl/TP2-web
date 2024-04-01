@@ -1,0 +1,45 @@
+.row{
+    text-align: center;
+    font-size: 30px;
+    
+}
+.col{
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+.tete{
+    height: 115px;
+    background-color: tomato;
+}
+.sec0{
+    height: 70px;
+    background-color: hotpink;
+}
+.sec1{
+    height: 70px;
+    background-color: gold;
+}
+.sec2{
+    height: 70px;
+    background-color: lightcoral;
+}
+.sec3{
+    height: 70px;
+    background-color: plum;
+}
+.sec4{
+    height: 70px;
+    background-color: slateblue;
+}
+.sec5{
+    height: 70px;
+    background-color: wheat;
+}
+.sec6{
+    height: 70px;
+    background-color: lightblue;
+}
+.fin{
+    height: 115px;
+    background-color: rgb(184, 204, 184);
+}
