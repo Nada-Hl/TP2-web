@@ -1,0 +1,52 @@
+.arrange{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.arrange>*{
+    padding:10px;
+    margin: 10px;
+    border-radius: 10px;
+    flex:1 100%;
+    text-align: center;
+}
+.header{
+    background-color:tomato;
+    height:120px;
+}
+.footer{
+    background-color:rgb(184, 204, 184) ;
+    height:120px;
+}
+.sec0{
+    background-color:hotpink ;
+}
+.sec1{
+    background-color: gold;
+}
+.sec2{
+    background-color: lightcoral;
+}
+.sec3{
+    background-color: plum;
+}
+.sec4{
+    background-color: slateblue;
+}
+.sec5{
+    background-color: wheat;
+}
+.sec6{
+    background-color: lightblue;
+}
+
+@media all and (min-width : 800px){
+    .sec1, .sec2, .sec3, .sec4 {
+        flex-basis: 20%;
+    }
+
+    .sec5, .sec6 {
+        flex-basis: 40%;
+    }
+}
